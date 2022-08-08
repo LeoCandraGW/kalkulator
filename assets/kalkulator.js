@@ -50,7 +50,7 @@ function performCalculation(){
         result = parseInt(calculator.firsNumber) - parseInt(calculator.displayNumber);
     }
     const history = {
-        firstNumber: calculator.firstNumber,
+        firsNumber: calculator.firsNumber,
         secondNumber: calculator.displayNumber,
         operator: calculator.operator,
         result: result
